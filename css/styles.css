@@ -147,8 +147,19 @@ p {
 /*? ---section 1--- */
 
 .hero-title {
-  background: #2e2f42;
+  background-color: #2e2f42;
+  max-width: 1440px;
+  margin: auto;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
 }
 
 .title {
@@ -210,6 +221,22 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
+  padding-bottom: 120px;
+}
+
+.description-icon {
+  border: 1px solid #8E8F99;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background-color: #F4F4FD;
+  
+}
+
+.icon {
+  display: flex;
+  height: 112px;
+  gap: 24px;
+  margin: auto;
 }
 
 .description-item {
@@ -246,6 +273,7 @@ p {
   line-height: 1.11;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
+  
 }
 
 .our-team-list {
