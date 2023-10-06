@@ -305,6 +305,31 @@ p {
   text-align: center;
 }
 
+.our-icon-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.our-icon-item{
+  background-color: #4D5AE5;
+  border-radius: 100%;
+}
+
+.our-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-icon {
+  fill: #f4f4fd;
+}
+
 /*? --- Section 4 - "Our Portfolio" --- */
 
 .portfolio {
