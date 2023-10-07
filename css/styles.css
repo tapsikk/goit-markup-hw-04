@@ -467,6 +467,7 @@ p {
 .footer-container {
   display: flex;
   align-items: baseline;
+  padding-right: 120px;
 }
 
 .footer-logo-box {
@@ -535,7 +536,8 @@ p {
   align-items: center;
   justify-content: center;
   background-color: #4d5ae5;
-  border-radius: 100%;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-link-foother:hover,
