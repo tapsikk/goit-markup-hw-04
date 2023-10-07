@@ -467,11 +467,10 @@ p {
 .footer-container {
   display: flex;
   align-items: baseline;
-  padding-right: 120px;
 }
 
 .footer-logo-box {
-  padding-right: 120px;
+  margin-right: 120px;
 }
 
 .footer-logo {
