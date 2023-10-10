@@ -48,6 +48,10 @@ p {
   word-wrap: break-word;
 }
 
+input {
+	font-family: inherit;
+}
+
 /*? --- Header --- */
 
 .header {
