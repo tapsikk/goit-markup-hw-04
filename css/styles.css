@@ -549,17 +549,8 @@ input {
   background-color: #31d0aa;
 }
 
-.hero-text {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  word-wrap: break-word;
-}
 
-
-/*? ---  "okno" --- */
+/*? ---  "modal" --- */
 
 .backdrop{
   position: fixed;
@@ -582,3 +573,20 @@ input {
   left: 50%;
   transform: translate(50%, 50%);
 } 
+
+
+.is-open{
+  opacity: 1;
+  visibility: visible;
+}
+
+/*? ---  "other" --- */
+
+.hero-text {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+}
